@@ -1,16 +1,15 @@
 import React from 'react';
 import { ThemeProvider } from "@/components/theme/theme-provider.tsx";
-import { ModeToggle } from "@/components/theme/mode-toggle.tsx";
+import { NavigationBar } from "@/components/navigation/navigation-bar.tsx";
 
-function App() {
+
+export function App() {
     return (
-        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-            <div className="app">
+        <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+            <div className="app w-full h-screen">
+                <NavigationBar />
 
-                <ModeToggle />
             </div>
         </ThemeProvider>
     );
 }
-
-export default App;
