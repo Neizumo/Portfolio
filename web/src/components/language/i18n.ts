@@ -31,7 +31,7 @@ i18n
                         "Skills": 'Habilidades',
                         "Projects": 'Projetos',
                         "Formation": 'Formação',
-                        "Experiences": 'Experiences',
+                        "Experiences": 'Experiências',
                         "Contact": 'Contato'
                     }
                 },

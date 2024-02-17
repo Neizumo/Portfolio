@@ -44,7 +44,7 @@ export function NavigationBar() {
                         {/* Exemplo para o item 'Contact', adaptado ao seu esquema */}
                         <NavigationMenuItem asChild>
                             <Link to="/contact">
-                                <Button variant="ghost">{t('navigationBarTranslate.Contact')}</Button>
+                                <Button>{t('navigationBarTranslate.Contact')}</Button>
                             </Link>
                         </NavigationMenuItem>
                     </NavigationMenuList>
